@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <title>Pure JavaScript Excel</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="excel">
+            <div class="excel-header">
+                <input class="excel-header__title-input" type="text" value="new table">
+                    <div class="">
+                        <div class="excel-header__title-button">
+                            <span class="material-icons">exit_to_app</span>
+                        </div>
+                        <div class="excel-header__title-button">
+                            <span class="material-icons">delete_forever</span>
+                        </div>
+                    </div>
+                </input>
+            </div>
+
+            <div class="excel-toolbar">
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_align_left</span>
+                </div>
+
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_align_center</span>
+                </div>
+
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_align_right</span>
+                </div>
+
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_bold</span>
+                </div>
+
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_italic</span>
+                </div>
+
+                <div class="excel-toolbar__button">
+                    <span class="material-icons">format_underline</span>
+                </div>
+            </div>
+
+            <div class="excel-formula">
+                <div class="excel-formula__info">
+                    <span class="excel-formula__info-title">fx</span>
+                </div>
+
+                <div class="excel-formula__input" contenteditable spellcheck="false">
+
+                </div>
+            </div>
+
+            <div class="excel-table">
+                <div class="excel-table__row">
+
+                    <div class="excel-table__info">
+
+                    </div>
+
+                    <div class="excel-table__data">
+                        <div class="excel-table__column">
+                            A
+                        </div>
+                        <div class="excel-table__column">
+                            B
+                        </div>
+                        <div class="excel-table__column">
+                            C
+                        </div>
+                    </div>
+                </div>
+
+                <div class="excel-table__row">
+                    <div class="excel-table__info">
+                        1
+                    </div>
+                    <div class="excel-table__data">
+                        <div class="excel-table__cell " contenteditable spellcheck="false">A1</div>
+                        <div class="excel-table__cell" contenteditable spellcheck="false">B1</div>
+                        <div class="excel-table__cell" contenteditable spellcheck="false">C1</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

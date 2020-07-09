@@ -27,7 +27,7 @@ module.exports = {
   mode: 'development',
   entry: ['@babel/polyfill', './index.js'],
   output: {
-    filename: filename('js'),
+    filename: filename('bundle.js'),
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
@@ -45,7 +45,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      template: 'index.html',
+      template: 'table.html',
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd,

@@ -1,4 +1,3 @@
-import './module';
-import './less/index.less'
+import './less/index.less';
 
 console.log('test index');

@@ -29,7 +29,7 @@
     "@babel/preset-env": "^7.9.6",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "browserslist": "> 0.25%, not dead",
+    "browserslist": "> .5% and last 2 versions",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^7.0.2",
@@ -45,6 +45,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.8.7"
+    "@babel/polyfill": "^7.8.7",
+    "normalize.css": "^8.0.1"
   }
 }
